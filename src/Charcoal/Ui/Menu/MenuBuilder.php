@@ -4,7 +4,6 @@ namespace Charcoal\Ui\Menu;
 
 // From Pimple
 use Pimple\Container;
-
 // From 'charcoal-factory'
 use Charcoal\Factory\FactoryInterface;
 
@@ -18,7 +17,7 @@ class MenuBuilder
      *
      * @const string
      */
-    const DEFAULT_TYPE = 'charcoal/ui/menu/generic';
+    public const DEFAULT_TYPE = 'charcoal/ui/menu/generic';
 
     /**
      * Store the menu factory instance.

@@ -4,7 +4,6 @@ namespace Charcoal\Ui\Layout;
 
 // From Pimple
 use Pimple\Container;
-
 // From 'charcoal-factory'
 use Charcoal\Factory\FactoryInterface;
 
@@ -18,7 +17,7 @@ class LayoutBuilder
      *
      * @const string
      */
-    const DEFAULT_TYPE = 'charcoal/ui/layout/generic';
+    public const DEFAULT_TYPE = 'charcoal/ui/layout/generic';
 
     /**
      * Store the layout factory instance.

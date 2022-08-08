@@ -4,7 +4,6 @@ namespace Charcoal\Ui\Form;
 
 // From Pimple
 use Pimple\Container;
-
 // From 'charcoal-factory'
 use Charcoal\Factory\FactoryInterface;
 
@@ -18,7 +17,7 @@ class FormBuilder
      *
      * @const string
      */
-    const DEFAULT_TYPE = 'charcoal/ui/form/generic';
+    public const DEFAULT_TYPE = 'charcoal/ui/form/generic';
 
     /**
      * Store the form factory instance.
